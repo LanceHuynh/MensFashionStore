@@ -20,9 +20,9 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
+                Name = "Black Big Shirt",
                 Category = "Shirt",
-                Price = 38.99
+                Price = 20.00
             },
             new Clothing()
             {
@@ -34,7 +34,7 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
+                Name = "Grey Small Shirt",
                 Category = "Shirt",
                 Price = 38.99
             },
@@ -48,7 +48,7 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
+                Name = "Red Small Shirt",
                 Category = "Shirt",
                 Price = 38.99
             },
@@ -62,13 +62,13 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
+                Name = "White Medium Shirt",
                 Category = "Shirt",
                 Price = 38.99
             },
             new Clothing()
             {
-                Id = 1,
+                Id = 5,
                 Infomation = new String[]
                 {
                     "Size: XL",
@@ -76,55 +76,13 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
-                Price = 38.99
-            },
-            new Clothing()
-            {
-                Id = 1,
-                Infomation = new String[]
-                {
-                    "Size: XL",
-                    "Blue",
-                    "Comfortable"
-                },
-                DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
-                Price = 38.99
-            },
-            new Clothing()
-            {
-                Id = 1,
-                Infomation = new String[]
-                {
-                    "Size: XL",
-                    "Blue",
-                    "Comfortable"
-                },
-                DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
-                Price = 38.99
-            },
-            new Clothing()
-            {
-                Id = 1,
-                Infomation = new String[]
-                {
-                    "Size: XL",
-                    "Blue",
-                    "Comfortable"
-                },
-                DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
+                Name = "BLue Big Pants",
                 Category = "Pants",
                 Price = 38.99
             },
             new Clothing()
             {
-                Id = 1,
+                Id = 6,
                 Infomation = new String[]
                 {
                     "Size: XL",
@@ -132,13 +90,13 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
+                Name = "Blue Medium Pants",
+                Category = "Pants",
                 Price = 38.99
             },
             new Clothing()
             {
-                Id = 1,
+                Id = 7,
                 Infomation = new String[]
                 {
                     "Size: XL",
@@ -146,13 +104,13 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
+                Name = "Blue Small Pants",
+                Category = "Pants",
                 Price = 38.99
             },
             new Clothing()
             {
-                Id = 1,
+                Id = 8,
                 Infomation = new String[]
                 {
                     "Size: XL",
@@ -160,11 +118,10 @@ namespace MensFashionStore.Data
                     "Comfortable"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
-                Name = "Shirt",
-                Category = "Shirt",
+                Name = "Grey Big Pants",
+                Category = "Pants",
                 Price = 38.99
             },
-
         };
 
         public IEnumerable<Clothing> GetAllClothing()

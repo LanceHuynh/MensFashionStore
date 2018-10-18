@@ -1,0 +1,19 @@
+﻿@using MensFashionStore.Models
+@model IEnumerable<Clothing>
+
+<div class="row">
+    @foreach (var clothing in Model)
+    {
+        <div class="col-md-3">
+            <a href="@Url.Action("Detail", new { id = clothing.Id })">
+                <img src="/Images/@clothing.CoverImageFileName"
+                     alt="@clothing.Name"
+                     class="img-responsive" />
+            </a>
+            <br>
+            <button type="button" class="btn btn-info" style="top: 0px; right:0px; position: absolute; margin-right:15px;">
+                @clothing.Price &euro;
+            </button>
+        </div>
+    }
+</div>

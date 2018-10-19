@@ -29,28 +29,28 @@ namespace MensFashionStore.Data
                 Id = 2,
                 Infomation = new String[]
                 {
-                    "Size: XL",
-                    "Blue",
-                    "Comfortable"
+                    "Size: SM",
+                    "Grey",
+                    "Stylish"
                 },
-                DescriptionHtml  = "<p>Show this to your friend!</p>",
+                DescriptionHtml  = "<p>You may wnat to check this out!</p>",
                 Name = "Grey Small Shirt",
                 Category = "Shirt",
-                Price = 38.99
+                Price = 15.00
             },
             new Clothing()
             {
                 Id = 3,
                 Infomation = new String[]
                 {
-                    "Size: XL",
-                    "Blue",
-                    "Comfortable"
+                    "Size: SM",
+                    "Red",
+                    "Snazzy"
                 },
                 DescriptionHtml  = "<p>Show this to your friend!</p>",
                 Name = "Red Small Shirt",
                 Category = "Shirt",
-                Price = 38.99
+                Price = 34.65
             },
             new Clothing()
             {
